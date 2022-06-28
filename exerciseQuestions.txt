@@ -1,0 +1,22 @@
+question 1:
+What challenges did you face during this exercise?
+
+
+answer 1: 
+One challenge surfaced from the 2nd scenario requirement which was giving the test user the ability to 
+create an account and log back in. WDIO offers a shared-store service which allows the setup of global 
+variables that are accessible from any step from a given scenario. This allows me to create user data at 
+the create account step, sign out, and login again accessing the data that was stored in the earlier step. 
+I integrated fakerjs, https://fakerjs.dev/guide/, in order to have fresh random user data every run. 
+
+
+question 2: 
+Why did you choose the framework that you chose?
+ 
+
+answer 2: 
+I selected Webdriver.IO because as a framework it can run FE automated tests using Selenium and use other Node.js 
+packages to run backend API tests. It can utilize moca, jasmine, or cucumber; I went with cucumber for this exercise. 
+WDIO also has the capability to run with Appium for mobile automated tests. With this framework I was able to utilize 
+the Page-Object-Model approach & implement an environment loader. This framework comes with my customizations available in 
+reporting & even has plugins to run on test cloud platforms such as SauceLabs. 
