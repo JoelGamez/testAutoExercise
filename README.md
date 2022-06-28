@@ -9,7 +9,7 @@
 ## Environment loader
 
 1. The ability to run test in specific environment
-    - `ENV_DATA={env} npm run wdio -- --cucumberOpts.tagExpression=‘@scenarioXX`
+    - `ENV_DATA={env} npm run wdio -- --cucumberOpts.tagExpression='@scenarioXX'`
         - `If env is not specified prod will be the default environment`
 
 ## Running tests
