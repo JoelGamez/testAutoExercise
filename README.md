@@ -1,4 +1,4 @@
-# Dealerware Test Automation Project
+# Test Automation Exercise
 
 ## Setup
 
