@@ -10,7 +10,7 @@ Feature: Dealerware Coding Challenge
     Then I expect to see an invalid credentials error
 
   @scenarioTwo
-  Scenario Outline: As a user, I can login with existing credentials
+  Scenario Outline: As a user, I can create an account and login with existing credentials
 
     Given I am on the home page
     And I click on sign in
